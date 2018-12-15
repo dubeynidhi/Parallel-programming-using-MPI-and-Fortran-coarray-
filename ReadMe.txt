@@ -1,4 +1,4 @@
-This is a Jacobian iteration implementation on a 4*4 processor arrangement using MPI and Fortran coarraay. Each process is implemented as a 66*66 matrix and true solution is implemented as 256*256. The start and end index of inner elements for both u matrix and f and t matrix process wise. The update the values, transfer data and check for convergence. Finally, the covergence value and the final difference is calculated and printed on screen in root process or image 1. For detailed in description of the project refer the problem formulation pdf.
+This is a Jacobian iteration implementation on a 4*4 processor arrangement using MPI and Fortran coarray. Each process is implemented as a 66*66 matrix and true solution is implemented as 256*256. The start and end index of inner elements for both u matrix and f and t matrix process wise. The update the values, transfer data and check for convergence. Finally, the covergence value and the final difference is calculated and printed on screen in root process or image 1. For detailed in description of the project refer the problem formulation pdf.
 
 
 The processors are in this form for MPI
